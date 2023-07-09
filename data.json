@@ -1,0 +1,33 @@
+{
+    "candidates": [
+      {
+        "name": "John Doe",
+        "location": "New York",
+        "jobRole": "Software Engineer",
+        "experience": "5 years",
+        "skills": ["JavaScript", "Python", "React"]
+      },
+      {
+        "name": "Jane Smith",
+        "location": "San Francisco",
+        "jobRole": "Data Analyst",
+        "experience": "3 years",
+        "skills": ["SQL", "Python", "Data Visualization"]
+      },
+      {
+        "name": "Mike Johnson",
+        "location": "Chicago",
+        "jobRole": "Marketing Manager",
+        "experience": "7 years",
+        "skills": ["Digital Marketing", "SEO", "Social Media"]
+      },
+      {
+        "name": "Sarah Lee",
+        "location": "Los Angeles",
+        "jobRole": "Graphic Designer",
+        "experience": "4 years",
+        "skills": ["Adobe Photoshop", "Illustrator", "UI/UX Design"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,75 @@
+/* Example CSS for search form and search results */
+#search-form {
+  margin-bottom: 20px;
+}
+
+#search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.candidate {
+  flex: 0 0 300px; /* Set a fixed width for each card */
+  margin: 10px; /* Add some spacing between cards */
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+}
+
+/* On mouse-over, add a deeper shadow and background color */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+}
+
+/* Add some padding inside the card container */
+.card {
+  padding: 20px;
+}
+
+/* Style the search button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the evaluate button */
+.evaluate-btn {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.evaluate-btn:hover {
+  background-color: #1e7e34;
+}
+
+/* Additional styles for headings and text */
+h3 {
+  color: #333;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #777;
+  margin-bottom: 4px;
+}
